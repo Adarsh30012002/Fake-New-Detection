@@ -20,8 +20,26 @@ This project is a machine learning web application built with **Streamlit** that
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+2. Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+If requirements.txt doesn’t exist, manually install:
 
-```bash
-git clone https://github.com/your-username/fake-news-detector.git
-cd fake-news-detector
+bash
+Copy
+Edit
+pip install pandas scikit-learn streamlit joblib
+3. Train the Model
+Run this script to train and save the model:
+
+bash
+Copy
+Edit
+python train_model.py
+4. Run the Web App
+bash
+Copy
+Edit
+streamlit run app.py
