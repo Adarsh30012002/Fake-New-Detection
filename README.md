@@ -86,8 +86,6 @@ Launch the Streamlit app locally:
 streamlit run app.py
 ```
 
-Access it at [http://localhost:8501](http://localhost:8501) in your browser.
-
 ## 🧪 Example Input
 
 Try pasting this into the app:
@@ -97,44 +95,6 @@ Scientists discovered a new energy source that could change the world.
 ```
 
 Click **Check News** – the app will tell you whether it’s real or fake.
-
-## 📄 Example Configuration (YAML)
-
-```yaml
-name: Fake News Detector
-version: 1.0
-dependencies:
-  - pandas
-  - scikit-learn
-  - streamlit
-  - joblib
-author: Adarsh Kumar
-license: MIT
-```
-
-## 🖥️ Bash Script Example
-
-```bash
-#!/bin/bash
-
-echo "Training model..."
-python train_model.py
-
-echo "Launching app..."
-streamlit run app.py
-```
-
-Save this as `run.sh` if you want to automate your workflow.
-
-## 📊 Dataset
-
-This project uses:
-- [Fake and Real News Dataset on Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
-
-Labels:
-- `0` – Fake news
-- `1` – Real news
-
 ## ✅ Requirements
 
 - Python 3.7+
